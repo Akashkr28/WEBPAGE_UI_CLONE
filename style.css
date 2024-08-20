@@ -70,7 +70,7 @@ main{
     width: 35%;
 }
 
-/* Min Left */
+/* Main Left */
 
 .main-left h1{
     font-size: 65px;
@@ -130,4 +130,45 @@ main{
     list-style-type: none;
     align-items: center;
     gap: 10px;
+}
+
+/* Main Right */
+.main-right{
+    position: relative;
+    width: 65%;
+}
+
+.car-loans{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 110px;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 30px;
+    top: 8%;
+    left: 10%;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 1px 1px 20px grey;
+}
+
+.home-loans{
+    position: absolute;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    width: 125px;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 30px;
+    right: 10%;
+    top: 25%;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 10px 10px 50px grey;
+}
+
+.hero-image{
+    width: 100%;
 }
