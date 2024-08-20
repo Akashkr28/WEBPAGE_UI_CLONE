@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+/* Full Web Page Container */
+body{
+    background-image: url("./Assets/background-image.png");
+    background-position: bottom;
+    height: 100vh;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* NavBar Section */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    height: 10vh;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #010101;
+    font-size: 15px;
+}
+
+.nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav-buttons > button{
+    padding: 8px 15px;
+    border: none;
+    color: #ffffff;
+    background-color: #ED017F;
+    border-radius: 5px;
+}
+
