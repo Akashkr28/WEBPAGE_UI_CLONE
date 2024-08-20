@@ -172,3 +172,47 @@ main{
 .hero-image{
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        background-position: center;
+    }
+    main {
+        padding-top: 10%;
+        flex-direction: column-reverse;
+        gap: 10px;
+        margin: 0 10%;
+    }
+    .main-left {
+        width: 100%;
+        text-align: center;
+    }
+    .main-right{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+        justify-content: center;
+    }
+    .car-loans{
+        top: 0;
+        left: 5%;
+    }
+    .home-loans{
+        right: 0;
+    }
+    .nav-menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .car-loans{
+        left: -10px;
+        width: 95px;
+    }
+    .home-loans{
+        width: 110px;
+        right: -25px;
+    }
+}
